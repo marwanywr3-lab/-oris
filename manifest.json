@@ -1,0 +1,17 @@
+{
+  "name": "Oris - AI Smart Scheduler",
+  "short_name": "Oris",
+  "description": "AI-powered daily scheduler and time-blocking assistant",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#FAF9F6",
+  "theme_color": "#D97757",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
