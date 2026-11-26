@@ -5,7 +5,7 @@ const OrisAI = {
       throw new Error(I18N[state.lang].missing_api);
     }
 
-    const model = state.settings.model || "gemini-2.5-flash";
+    const model = state.settings.model || "gemini-3.5-flash-lite";
     const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${encodeURIComponent(apiKey)}`;
 
     const dayNames = ["Sunday (0)", "Monday (1)", "Tuesday (2)", "Wednesday (3)", "Thursday (4)", "Friday (5)", "Saturday (6)"];
