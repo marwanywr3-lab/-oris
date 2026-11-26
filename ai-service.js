@@ -61,9 +61,7 @@ Rules:
         contents: [
           {
             role: "user",
-            parts: [{ text: systemInstruction + "
-
-User Command: " + userPrompt }]
+            parts: [{ text: `${systemInstruction}\n\nUser Command: ${userPrompt}` }]
           }
         ],
         generationConfig: {
